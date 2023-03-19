@@ -1,0 +1,107 @@
+body {
+    background: url(https://th.bing.com/th/id/R.971d3ac82eccab37ed04bb8e854f4a17?rik=BRt4rd%2b%2brEMKdg&pid=ImgRaw&r=0);
+    padding: 100px 0;
+}
+
+.container {
+    width: 800px;
+    min-height: 600px;
+    border: 10px solid #fff;
+    margin: 0 auto;
+    background: #fff;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(https://maxime-garnier.fr/assets/images/uploads/ab53398daec85024eee11c675b3a4021.jpg) no-repeat center center / cover;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.title-block::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://elsolweb.tv/wp-content/uploads/2018/01/hacker-room_v21-e1515774685509.jpg) center center / cover;
+}
+
+.nav ul {
+    display: flex;
+    background: rgb(149, 148, 148);
+    margin: 10px 0;
+}
+
+.nav li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1px solid #404040;
+    transition: background .3s ease;
+}
+
+.nav li a:hover {
+    background: rgb(194, 194, 194)
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.content p {
+    line-height: 20px;
+}
+
+.sidebar {
+    padding: 20px;
+    width: 30%;
+}
+
+.skills li {
+    padding: 10px 0;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+.skills li:hover {
+    transform: translateX(10px);
+}
